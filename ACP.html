@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS ACP</title>
+</head>
+
+
+<body>
+    <h2>Java Script Objects Data Structure and Array</h2>
+
+    <script>
+        var student = {
+            name: 'Dhanya',
+            age: '12.9',
+            Grade: '7',
+            hobbies: 'Talking',
+            fav_sport: 'Basketball'
+        };
+        var color = ["white", "black", "grey", "silver", "gold"];
+
+        document.write("Student name is : "  + student.name,
+            "<br>", "Student favorite sport is : "
+        + student.fav_sport);
+
+        document.write("<br>Before Poping the colors are: " + color.join("^"));
+        document.write("<br>My favorite color is : " + color[3]);
+
+        color.pop();
+        document.write("<br>After Poping the colors are : " + color.join("*"));
+
+     </script>
+       
